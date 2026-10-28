@@ -27,7 +27,7 @@ const App = () => {
 
     try {
       const res = await axios.get(
-        `http://localhost:3000/${operation}/${num1}/${input}`
+        `https://backend-projects-five.vercel.app/${operation}/${num1}/${input}`
       );
       if (res.data.success) {
         setInput((res.data.data));
