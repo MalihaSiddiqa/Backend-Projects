@@ -28,7 +28,6 @@ app.get('/add/:a/:b', (req, res) => {
         
     }
     else {
-        console.log('hello')
         res.send({
             success: true,
             message: 'operation successfull',
@@ -51,7 +50,6 @@ app.get('/sub/:a/:b', (req, res) => {
         
     }
     else {
-        console.log('hello')
         res.send({
             success: true,
             message: 'operation successfull',
@@ -74,7 +72,6 @@ app.get('/multiply/:a/:b', (req, res) => {
         
     }
     else {
-        console.log('hello')
         res.send({
             success: true,
             message: 'operation successfull',
@@ -96,7 +93,6 @@ app.get('/divide/:a/:b', (req, res) => {
         
     }
     else {
-        console.log('hello')
         res.send({
             success: true,
             message: 'operation successfull',
@@ -119,7 +115,6 @@ app.get('/percentage/:a/:b', (req, res) => {
         
     }
     else {
-        console.log('hello')
         res.send({
             success: true,
             message: 'operation successfull',
