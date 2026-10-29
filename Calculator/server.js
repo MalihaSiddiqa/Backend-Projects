@@ -16,8 +16,8 @@ app.get('/', (req, res) => {
 })
 
 app.get('/add/:a/:b', (req, res) => {
-    const a = parseInt(req.params.a)
-    const b = parseInt(req.params.b)
+    const a = parseFloat(req.params.a)
+    const b = parseFloat(req.params.b)
     
     if(isNaN(a) || isNaN(b)) {
         res.send({
@@ -39,8 +39,8 @@ app.get('/add/:a/:b', (req, res) => {
 })
 
 app.get('/sub/:a/:b', (req, res) => {
-    const a = parseInt(req.params.a)
-    const b = parseInt(req.params.b)
+    const a = parseFloat(req.params.a)
+    const b = parseFloat(req.params.b)
     
     if(isNaN(a) || isNaN(b)) {
         res.send({
@@ -62,8 +62,8 @@ app.get('/sub/:a/:b', (req, res) => {
 })
 
 app.get('/multiply/:a/:b', (req, res) => {
-    const a = parseInt(req.params.a)
-    const b = parseInt(req.params.b)
+    const a = parseFloat(req.params.a)
+    const b = parseFloat(req.params.b)
     
     if(isNaN(a) || isNaN(b)) {
         res.send({
@@ -84,8 +84,8 @@ app.get('/multiply/:a/:b', (req, res) => {
 })
 
 app.get('/divide/:a/:b', (req, res) => {
-    const a = parseInt(req.params.a)
-    const b = parseInt(req.params.b)
+    const a = parseFloat(req.params.a)
+    const b = parseFloat(req.params.b)
     
     if(isNaN(a) || isNaN(b)) {
         res.send({
@@ -107,8 +107,8 @@ app.get('/divide/:a/:b', (req, res) => {
 })
 
 app.get('/percentage/:a/:b', (req, res) => {
-    const a = parseInt(req.params.a)
-    const b = parseInt(req.params.b)
+    const a = parseFloat(req.params.a)
+    const b = parseFloat(req.params.b)
     
     if(isNaN(a) || isNaN(b)) {
         res.send({
