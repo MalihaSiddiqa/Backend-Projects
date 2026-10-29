@@ -177,7 +177,6 @@ const App = () => {
           </button>
         
 
-          {/* Bottom Row: 0 and Equals */}
           <button
             onClick={() => handleNumber(0)}
             className="bg-amber-200 rounded-full w-8 h-8 p-1 m-1 hover:bg-amber-100 active:bg-amber-300"
